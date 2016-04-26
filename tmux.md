@@ -27,6 +27,8 @@ Shortcuts
     Ctrl-a Ctrl-o   swap panes
     Ctrl-a ,        rename window
 
+    Ctrl-a :source-file ~/.tmux.conf    :   reload the configuration
+
 Copy-pasting:
 
     1. Ctrl-a [         enter scroll mode (Esc to exit)
