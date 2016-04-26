@@ -20,3 +20,5 @@ Get specific file from branch:
 
     git checkout [branch] -- [file]
 
+
+Get specific from branch: `git checkout [branch] -- [file]`
