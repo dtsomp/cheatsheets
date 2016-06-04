@@ -20,3 +20,9 @@ Get specific file from branch:
 
     git checkout [branch] -- [file]
 
+
+Config:
+
+	set expandtab		# (turn tabs into spaces)
+	set tabstop=4		# (1 tab = 4 spaces)
+	set shiftwidth=4	# Set indentation to 4 spaces
