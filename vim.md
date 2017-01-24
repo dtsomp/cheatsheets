@@ -1,28 +1,22 @@
-# git
+# vim
 
-Find files in current directory that are different:  
+Command mode:
 
-    git diff --name-only <branch> -- .
+	K 			# Show man page for word under cursor
 
-Do a vimdiff of file foobar and its BRANCH version:  
+Insert mode:
 
-    vimdiff foobar <(git show BRANCH:path/to/foobar)   
-
-vimdiff all files in current dir, between master and test branches:  
-
-    git difftool -t vimdiff master test .
-
-Diff using Meld, directory view:  
-
-    git difftool -t meld -d test
-
-Get specific file from branch:  
-
-    git checkout [branch] -- [file]
-
-
+	Ctrl+t 			# Indent right
+	Ctrl+d			# Indent left
+	
 Config:
 
 	set expandtab		# (turn tabs into spaces)
 	set tabstop=4		# (1 tab = 4 spaces)
 	set shiftwidth=4	# Set indentation to 4 spaces
+
+On the command line
+
+	
+	# Compare local and remote file
+	vimdiff /local/file scp://user@host//remote/file
