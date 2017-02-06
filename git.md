@@ -20,4 +20,8 @@ Get specific file from branch:
 
     git checkout [branch] -- [file]
 
+Delete remote and local branch (order of exec matters):
+
+    git push orign --delete [branch]
+    git branch -d [branch]
 
