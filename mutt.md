@@ -11,6 +11,8 @@ Configuration options:
     set markers=no              # *** no '+' ***
     color markers <fg> <bg>     # color markers, if desired
 
-PGP options (when in send screen):
 
-    press 'p' for options
+PGP:
+
+    p                           # See PGP options in 'send' screen
+    ESC + p                     # Decrypt inline PGP
