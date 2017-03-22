@@ -26,11 +26,11 @@ Get keys for a person
 
 Find keys for a person
 
-    gpg --keyserver hkp://pgp.mit.edu --search-keys <user@email.com>
+    gpg --keyserver <keyserver> --search-keys <user@email.com>
 
 Get public key from keyserver
 
-    gpg --keyserver hkp://pgp.mit.edu --recv-keys <keyid>
+    gpg --keyserver <keyserver> --recv-keys <keyid>
 
 Set trust level
 
@@ -47,3 +47,9 @@ List secret keys
 Export secret key
 
     gpg --export-secret-key -a "User Name" > private.key
+
+
+## Key servers
+
+    hkp://pgp.mit.edu
+    hkp://pool.sks-keyservers.net
