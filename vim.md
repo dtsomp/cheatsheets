@@ -22,3 +22,11 @@ On the command line
 	
 	# Compare local and remote file
 	vimdiff /local/file scp://user@host//remote/file
+
+Auto-format
+    
+    # Current file
+    gg=G
+
+    # All source files
+    :args src/**/*.<ext> | argdo silent execute "normal gg=G" | update
