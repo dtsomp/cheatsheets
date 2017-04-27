@@ -4,6 +4,10 @@ Find files in current directory that are different:
 
     git diff --name-only <branch> -- .
 
+`git diff` but with list of changed files
+    
+    git log --stat 
+
 Do a vimdiff of file foobar and its BRANCH version:  
 
     vimdiff foobar <(git show BRANCH:path/to/foobar)   
