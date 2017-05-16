@@ -6,6 +6,8 @@ Command mode:
 	:r <filename>		# Insert contents of <filename>
 	:r !<command>		# Insert result of shell command
 	:make			# Run make using the Makefile in the cwd
+    :earlier 5m     # Revert file changes to 5 minutes ago
+    :earlier 300s   # Revert file changes to 300 seconds ago
 
 Insert mode:
 
@@ -30,3 +32,24 @@ Auto-format
 
     # All source files
     :args src/**/*.<ext> | argdo silent execute "normal gg=G" | update
+
+Window splitting
+
+    :vspit [/path/to/file]      # Vertical split
+    :split [/path/to/file]      # Horizontal split
+    ctrl + w w                  # Move to other split
+    ctrl + w _                  # Max out height of current split
+    ctrl + w |                  # Max out width of current split
+    ctrl + w =                  # Normalize all split sizes
+    ctrl + w R                  # Swap top/bottom or left/right split
+    ctrl + w T                  # Break out window into new tab view
+    ctrl + w o                  # Close all other windows in current view
+    ctrl + w c                  # Close current window
+
+Window/Tab management
+
+    :ls                         # list windows
+    :hide                       # Close window
+    :tabs                       # list tabs and the windows in them
+    gt                         # Go to next tab
+    gT                         # Go to previous tab
