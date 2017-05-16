@@ -54,4 +54,6 @@ Amending a commit message:
     # If you've already pushed to remote, then:
     git push <remote> <branch> --force
 
+Undo the last pushed commit (i.e. create a patch that undoes the last commit):
 
+    git revert HEAD
