@@ -53,3 +53,7 @@ Window/Tab management
     :tabs                       # list tabs and the windows in them
     gt                         # Go to next tab
     gT                         # Go to previous tab
+
+Go directly to last opened file, at last location of cursor
+
+    ctrl+O+O        (double O while pressing ctrl)
