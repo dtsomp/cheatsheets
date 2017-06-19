@@ -57,3 +57,7 @@ Amending a commit message:
 Undo the last pushed commit (i.e. create a patch that undoes the last commit):
 
     git revert HEAD
+
+cd to top of git repository
+
+cd `git rev-parse --show-toplevel`
