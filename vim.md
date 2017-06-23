@@ -57,3 +57,7 @@ Window/Tab management
 Go directly to last opened file, at last location of cursor
 
     ctrl+O+O        (double O while pressing ctrl)
+
+Comment out all lines with *pattern*
+
+    :g/pattern/s/^/#/g 
