@@ -8,6 +8,10 @@ Find files in current directory that are different:
     
     git log --stat 
 
+Easy-to-read git diff
+
+    git diff --word-diff
+
 Do a vimdiff of file foobar and its BRANCH version:  
 
     vimdiff foobar <(git show BRANCH:path/to/foobar)   
