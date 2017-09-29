@@ -64,4 +64,13 @@ Undo the last pushed commit (i.e. create a patch that undoes the last commit):
 
 cd to top of git repository
 
-cd `git rev-parse --show-toplevel`
+    cd `git rev-parse --show-toplevel`
+
+Merge dry-run:
+
+    # Merge but dont commit 
+    git merge --no-commit --no-ff $BRANCH
+    # See which files have changed
+    git status
+    # Cancel the merge
+    git merge --abort
