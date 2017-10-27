@@ -26,6 +26,7 @@ Shortcuts
     Ctrl-a w        list windows and select window
     Ctrl-a Ctrl-o   swap panes
     Ctrl-a ,        rename window
+    Ctrl-a .        re-number window 
 
     Ctrl-a :source-file ~/.tmux.conf    :   reload the configuration
 
