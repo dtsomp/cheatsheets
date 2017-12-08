@@ -72,5 +72,7 @@ Merge dry-run:
     git merge --no-commit --no-ff $BRANCH
     # See which files have changed
     git status
+    # Examine file changes individually
+    git diff --cached filename
     # Cancel the merge
     git merge --abort
