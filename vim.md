@@ -33,6 +33,10 @@ Auto-format
     # All source files
     :args src/**/*.<ext> | argdo silent execute "normal gg=G" | update
 
+Indentation
+
+    =i{         # Indent the current block of code
+
 Window splitting
 
     :vspit [/path/to/file]      # Vertical split
@@ -50,9 +54,22 @@ Window/Tab management
 
     :ls                         # list windows
     :hide                       # Close window
+    :only                       # Close all other windows
     :tabs                       # list tabs and the windows in them
     gt                         # Go to next tab
     gT                         # Go to previous tab
+
+Save/Reload session
+
+    # Save current session
+    :mksession my-session.vim
+
+    # Update session file after you've closed/opened tabs
+    :mks!
+
+    # Restart session
+    vim -S my-session.vim
+	
 
 Go directly to last opened file, at last location of cursor
 
