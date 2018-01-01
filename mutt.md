@@ -16,3 +16,10 @@ PGP:
 
     p                           # See PGP options in 'send' screen
     ESC + p                     # Decrypt inline PGP
+
+
+Viewing files:
+
+    # ~/.mailcap
+    text/html; firefox -new-tab %s & sleep 5; test=........
+    
