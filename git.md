@@ -1,5 +1,7 @@
 # git
 
+## Diff
+
 Find files in current directory that are different:  
 
     git diff --name-only <branch> -- .
@@ -32,6 +34,16 @@ Delete remote and local branch (order of exec matters):
 
     git push orign --delete [branch]
     git branch -d [branch]
+
+Diff the stash'ed changes
+
+    # diff most recent stash
+    git stash show -p
+
+    # diff arbitrary stash
+    git stash show -p stash@{1}
+
+## merging, cherry-picking
 
 Cherry-pick changes:
 
