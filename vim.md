@@ -8,6 +8,8 @@ Command mode:
 	:make			# Run make using the Makefile in the cwd
     :earlier 5m     # Revert file changes to 5 minutes ago
     :earlier 300s   # Revert file changes to 300 seconds ago
+    gf          # Open filename under cursor
+    gx          # Open URL under cursor in browser
 
 Insert mode:
 

@@ -15,7 +15,7 @@ Configuration options:
 PGP:
 
     p                           # See PGP options in 'send' screen
-    ESC + p                     # Decrypt inline PGP
+    ESC + shift + p                     # Decrypt inline PGP
 
 
 Viewing files:
