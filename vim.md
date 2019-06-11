@@ -80,3 +80,7 @@ Go directly to last opened file, at last location of cursor
 Comment out all lines with *pattern*
 
     :g/pattern/s/^/#/g 
+
+Show a vertical ruler to make indentation easier
+
+    :set cursorcolumn
