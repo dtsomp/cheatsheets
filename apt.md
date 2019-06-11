@@ -23,4 +23,7 @@ Add a PPA key
     # Find which package a file belongs to:
     dpkg -S /usr/bin/ls
 
+## See which security updates are pending
 
+    grep security /etc/apt/sources.list > /tmp/security.list
+    sudo apt-get upgrade -o Dir::Etc::Sourcelist=/tmp/security.list -s
