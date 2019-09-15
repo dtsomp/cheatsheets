@@ -94,3 +94,7 @@ Explore view:
     :Tex            # new Tab
     :Lexplore       # explore on Left split, file on right split
     :40vs +Ex       # 40char columt left explore view
+
+Show a vertical ruler to make indentation easier
+
+    :set cursorcolumn

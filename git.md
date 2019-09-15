@@ -66,7 +66,7 @@ Cherry-pick changes:
 
 Amending a commit message:
 
-    git commit --ammend -m 'New commit message'
+    git commit --amend -m 'New commit message'
     # If you've already pushed to remote, then:
     git push <remote> <branch> --force
 
