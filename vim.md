@@ -80,3 +80,17 @@ Go directly to last opened file, at last location of cursor
 Comment out all lines with *pattern*
 
     :g/pattern/s/^/#/g 
+
+Documentation
+
+    # Ex commands (":" commands)
+    :help ex-cmd-index
+
+Explore view:
+
+    :Ex[plore]      # In-window explorer
+    :Sex            # new horizontal Split view
+    :Vex            # new Vertical split 
+    :Tex            # new Tab
+    :Lexplore       # explore on Left split, file on right split
+    :40vs +Ex       # 40char columt left explore view
