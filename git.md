@@ -88,3 +88,10 @@ Merge dry-run:
     git diff --cached filename
     # Cancel the merge
     git merge --abort
+
+# Hooks:
+
+Add hooks in dir, then use that dir globally as hooks source
+
+    git config --global init.templateDir ${DIR}
+
